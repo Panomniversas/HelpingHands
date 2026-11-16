@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS hardship_applications (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), full_name TEXT NOT NULL, email TEXT NOT NULL, country TEXT NOT NULL, amount_cents BIGINT NOT NULL CHECK (amount_cents > 0), situation TEXT NOT NULL, consent BOOLEAN NOT NULL DEFAULT false, status TEXT NOT NULL DEFAULT 'pending', created_at TIMESTAMPTZ NOT NULL DEFAULT now());
