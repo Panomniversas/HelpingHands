@@ -1,0 +1,5 @@
+# Hatchable project manifest. This file marks the folder as a
+# Hatchable project and declares the services it uses.
+# Reference: https://hatchable.com/docs/developers/config
+name = "Global Debt Relief & Donation Network"
+description = "A humanitarian crowdfunding platform connecting global donors with verified individuals and families facing severe debt hardship, with transparent fundraising and beneficiary verification."
